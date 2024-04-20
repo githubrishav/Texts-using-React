@@ -21,7 +21,7 @@ export default function TextForm(props) {
     <>
       <div className="container"><h2>{props.Heading}</h2>
         <div className="mb-3">
-          <textarea className="form-control" id="textBox" rows="15" value={text} onChange={handleChange} placeholder='Enter'></textarea>
+          <textarea className="form-control" id="textBox" rows="15" value={text} onChange={handleChange} placeholder='Enter Your Text'></textarea>
         </div>
         <button className='btn btn-primary' onClick={changeUp}>Convert to Uppercase</button>
         <button className='btn btn-warning mx-3 my-3' onClick={changelower}>Convert to Lowercase</button>
